@@ -10,7 +10,7 @@ import zipfile
 @st.cache_data
 def load_data():
     with zipfile.ZipFile('athlete_events.csv.zip') as z:
-        with z.open('athlete_events.csv/athlete_events.csv') as f:
+        with z.open('athlete_events.csv') as f:
             df = pd.read_csv(f)
     region_df = pd.read_csv('noc_regions.csv')
     df = preprocessor.preprocess(df, region_df)
