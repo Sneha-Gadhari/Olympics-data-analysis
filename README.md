@@ -8,6 +8,7 @@ The goal of this project is to explore data visualization, filtering, and dashbo
 
 ### Dataset Link: https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
 
+### Demo: https://olympics-data-analysis-kkkv7im8xgowlk2w7n8zym.streamlit.app/
 ## Features
 
 ### 1. Medal Tally
